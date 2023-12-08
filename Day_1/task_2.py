@@ -1,5 +1,5 @@
 # Open file and read lines
-file1 = open('input_1.txt', 'r')
+file1 = open('Day_1/input_1.txt', 'r')
 lines = file1.readlines()
 
 zero = "zero"

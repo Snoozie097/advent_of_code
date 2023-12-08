@@ -1,12 +1,10 @@
-file1 = open('input_1.txt', 'r')
-Lines = file1.readlines()
-
+file1 = open('Day_1/input_1.txt', 'r')
+lines = file1.readlines()
 
 sum = 0
 line = ""
 
-for line in Lines:
-    # Fix line spacing
+for line in lines:
     line = line.replace("\n", "")
 
     for char in line:
