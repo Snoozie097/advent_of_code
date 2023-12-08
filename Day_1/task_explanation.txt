@@ -1,0 +1,49 @@
+Day 1
+  Task 1:
+    The task was to look for the first and last number in a string.
+    After that merge them together to create a 2 digit number.
+    (In case of 1 number, this digit was supposed to be doubled)
+    
+    The answer was the sum of all that digits.
+    
+    example_data = [
+    1abc2,
+    pqr3stu8vwx,
+    a1b2c3d4e5f,
+    treb7uchet
+    ]
+
+    example_result = [
+    12,
+    38,
+    15,
+    77
+    ]
+
+    sum = 142
+
+  Task 2:
+    Additionaly numbers written in words were supposed to be transformed into classical numbers/
+
+    example_data = [
+    two1nine
+    eightwothree
+    abcone2threexyz
+    xtwone3four
+    4nineeightseven2
+    zoneight234
+    7pqrstsixteen
+    ]
+
+    example_result = [
+    29,
+    83,
+    13,
+    24,
+    42,
+    14,
+    76
+    ] 
+
+    sum = 281
+
